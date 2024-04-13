@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 function Pagina() {
@@ -52,8 +51,6 @@ function Pagina() {
           <div>Altura: {pokemon.height / 10}m</div>
         </div>
       )}
-
-      <Link to='/'>Voltar</Link>
 
     </div>
   );

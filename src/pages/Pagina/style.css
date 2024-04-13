@@ -13,22 +13,11 @@ body {
     background-color: rgb(248, 248, 248);
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 10px;
-    height: 60px;
-    width: 100%;
-    background-color: crimson;
-    color: ghostwhite;
-}
-
 input {
     border-radius: 10px;
     padding-left: 5px;
     margin-right: 10px;
+    margin-top: 20px;
     border-color: darkred;
 }
 
@@ -36,6 +25,7 @@ button {
     border-radius: 10px;
     border-color: darkred;
     color: azure;
+    font-style: white;
     background-color: crimson;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
